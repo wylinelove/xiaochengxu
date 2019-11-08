@@ -1,0 +1,36 @@
+/* pages/home/home.wxss */
+/* 一步电影 */
+.movie{
+  display:flex;
+  padding:10rpx;/*内边距*/
+  border-bottom:1px solid #ccc;/*底部边框*/
+}
+/* 右侧图片 */
+.movie-img{
+  width:200rpx;/*图片高度和宽度*/
+  height:300rpx;
+  margin-right:20rpx;/*右侧文字间距*/
+}
+/* 右侧电影介绍 */
+.movie-info{
+ flex:1;/*将右侧区域充满*/
+  font-size:28rpx;
+  line-height:1.8;/*原有间距的1.8倍*/
+}
+/* 标题 */
+.movie-title{
+  color:#666;
+  font-size:40rpx;
+}
+/* 分数 */
+.movie-score{
+  color:#faaf00;/*橙色*/
+}
+/* 按钮 */
+.movie-comment{
+  height:60rpx;
+  background:#e54847;
+  color:#fff;
+  font-size:26rpx;
+  margin-top:120rpx;/*与上面文字的间距*/
+}

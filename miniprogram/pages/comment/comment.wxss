@@ -1,0 +1,50 @@
+/* pages/comment/comment.wxss */
+.detail-container{
+  height:400rpx;
+  opacity:.9;/*透明度*/
+  filter:blur(40rpx);/*模糊滤镜*/
+}
+.deatail-mask{
+  width:100%;/*填满父元素*/
+  height:400rpx;
+  background:#333;
+  position: absolute;
+  left:0;/*左侧与顶端0*/
+  top:0;
+  z-index:-1;
+}
+/* 电影的详细信息 */
+.detail-info{
+  position:absolute;/*绝对定位显示在模糊图片上方*/
+  top:0;
+  left:0;
+  width:100%;/*填满整个父元素*/
+  height:400rpx;
+  display:flex;/*弹性布局*/
+  padding:20rpx;/*四个边加内边距*/
+}
+/* 修改图片大小 */
+.details-img{
+  width:280rpx;/*左侧图片宽*/
+  height:90%;
+  margin-right:24rpx;/*右侧间距文字*/
+}
+/* 右侧区域 电影内容 */
+.detail{
+  line-height:60rpx;
+}
+.detail view{
+  color:#fff;/*电影介绍文字*/
+  font-size:24rpx;
+}
+/* 评分修改颜色 */
+.detail .detail-sc{
+  color:#fc0;
+  font-size: 36rpx;
+}
+/* 电影描述 */
+.desc{
+  color:#555;
+  font-size:24rpx;
+  padding:20rpx;
+}
